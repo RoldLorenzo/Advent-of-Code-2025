@@ -1,7 +1,4 @@
-def get_file_lines(path: str) -> list[str]:
-    with open(path, "r") as file:
-        return file.read().splitlines()
-
+from util import get_file_lines
 
 if __name__ == "__main__":
     input = get_file_lines("./input.txt")
